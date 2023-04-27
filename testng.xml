@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/ellgramar/Documents/TestNGSelenium/src/test/java/TNGS">
+        <classes>
+            <class name="TNGS.HomePageLoads">
+                <methods>
+                    <include name="verifySiteLoads"/>
+                </methods>
+            </class>
+            <class name="TNGS.BottomLinks">
+                <methods>
+                    <include name="testOne"/>
+                    <include name="testTwo"/>
+                    <include name="testThree"/>
+                    <include name="testFour"/>
+                    <include name="testFive"/>
+                    <include name="testSix"/>
+                    <include name="testSeven"/>
+                    <include name="testEight"/>
+                    <include name="testNine"/>
+                    <include name="testTen"/>
+                    <include name="testEleven"/>
+                    <include name="testTwelve"/>
+                    <include name="testThirteen"/>
+                    <include name="testFourteen"/>
+                    <include name="testFifteen"/>
+                    <include name="testSixteen"/>
+                    <include name="testSeventeen"/>
+                    <include name="testEighteen"/>
+                    <include name="testNineteen"/>
+                    <include name="testTwenty"/>
+                    <include name="testTwentyOne"/>
+                    <include name="testTwentyTwo"/>
+                    <include name="testTwentyThree"/>
+                    <include name="testTwentyFour"/>
+                </methods>
+            </class>
+            <class name="TNGS.LowerPageExtraCases">
+                <methods>
+                    <include name="searchBarTest"/>
+                    <include name="ConditionsOfUseTest"/>
+                    <include name="PrivacyNoticeTest"/>
+                    <include name="YourAdsTest"/>
+                    <include name="AllMenuTest"/>
+                </methods>
+            </class>
+            <class name="TNGS.MakeMoneyWithUS">
+                <methods>
+                    <include name="testTen"/>
+                    <include name="testEleven"/>
+                    <include name="testTwelve"/>
+                    <include name="testThirteen"/>
+                    <include name="testFourteen"/>
+                    <include name="testFifteen"/>
+                    <include name="testSixteen"/>
+                    <include name="testSeventeen"/>
+                    <include name="testEighteen"/>
+                    <include name="testNineteen"/>
+                    <include name="twenty"/>
+                </methods>
+            </class>
+            <class name="TNGS.ShoppingForItem">
+                <methods>
+                    <include name="loadPage"/>
+                    <include name="findSearchBox"/>
+                    <include name="clickSearch"/>
+                    <include name="chooseItem"/>
+                </methods>
+            </class>
+            <class name="TNGS.TopShoppingLinks">
+                <methods>
+                    <include name="verifyClinic"/>
+                    <include name="verifyBestSellers"/>
+                    <include name="verifyAmazonBasics"/>
+                    <include name="verifyNewReleases"/>
+                    <include name="verifyPrime"/>
+                    <include name="verifyTodaysDeals"/>
+                    <include name="verifyMusic"/>
+                    <include name="verifyBooks"/>
+                    <include name="verifyRegistry"/>
+                    <include name="verifyFashion"/>
+                    <include name="verifyAmazonHome"/>
+                    <include name="verifyOneMedical"/>
+                    <include name="verifyGiftCards"/>
+                    <include name="verifyPharmacy"/>
+                    <include name="verifyToysAndGames"/>
+                    <include name="verifySell"/>
+                    <include name="verifyCoupons"/>
+                    <include name="verifyAutomotive"/>
+                    <include name="verifyComputers"/>
+                    <include name="verifyFindAGift"/>
+                    <include name="verifyBeautyAndPersonalCare"/>
+                    <include name="verifyVideoGames"/>
+                    <include name="verifyHomeImprovement"/>
+                    <include name="verifySmartHome"/>
+                    <include name="verifyHealthAndHouseholdProducts"/>
+                    <include name="verifyLuxuryStores"/>
+                    <include name="verifyPetSupplies"/>
+                    <include name="verifyAudible"/>
+                </methods>
+            </class>
+            <class name="TNGS.UpperPageExtraLinks">
+                <methods>
+                    <include name="ReturnsAndOrdersTest"/>
+                    <include name="SignInScreenTest"/>
+                    <include name="LanguageChangeTest"/>
+                    <include name="searchBarDropDownTest"/>
+                </methods>
+            </class>
+            <class name="TNGS.getToKnowUS">
+                <methods>
+                    <include name="testOne"/>
+                    <include name="testTwo"/>
+                    <include name="testThree"/>
+                    <include name="testFour"/>
+                    <include name="testFive"/>
+                    <include name="testSix"/>
+                    <include name="testSeven"/>
+                    <include name="testEight"/>
+                    <include name="testNine"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
