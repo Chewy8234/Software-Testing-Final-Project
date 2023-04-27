@@ -1,1 +1,2 @@
 # Software-Testing-Final-Project
+This project was a group project for the class Software Testing and this group chose to do testing on the Amazon website. Each member were assigned to test different tasks on the website including changing the language from English to Spanish to testing the botton links at the bottom of the Amazon website. The tools that were for this project were Selenium in Java and TestNG.
